@@ -1,2 +1,4 @@
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
+﻿import getLastItem from "./src/index.js"
+
+// Вызываем функцию и выводим результат
+console.log(getLastItem())
